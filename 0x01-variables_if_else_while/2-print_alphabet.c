@@ -4,11 +4,11 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabet in lowercase
+ * main - Entry point - prints the alphabet in lowercase
  *
- * Results: Always (Success)
- */
-/* main */
+ * Results: Always 0 (Success)
+*/
+
 int main(void)
 {
 	/* local variable */
@@ -20,6 +20,6 @@ int main(void)
 	n = tolower(n);
 	putchar(n);
 	n++;
-	}
 	return (0);
+	}
 }
