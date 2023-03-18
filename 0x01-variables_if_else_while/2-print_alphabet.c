@@ -13,9 +13,10 @@ int main(void)
 
 	/* while loop */
 	while (n <= 'z')
-	{;
+	{
 	putchar(n);
 	n++;
 	}
+	putchar('\n');
 	return (0);
 }
