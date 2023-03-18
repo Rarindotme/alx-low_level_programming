@@ -1,6 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
-#include <ctype.h>
 #include <stdio.h>
 
 /**
@@ -12,12 +9,11 @@
 int main(void)
 {
 	/* local variable */
-	int n = 'A';
+	int n = 'a';
 
 	/* while loop */
-	while (n <= 'Z')
-	{
-	n = tolower(n);
+	while (n <= 'z')
+	{;
 	putchar(n);
 	putchar('\n');
 	n++;
